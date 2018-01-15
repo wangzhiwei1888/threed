@@ -19,8 +19,8 @@ const Section = ({ children, title }) => (
 
 const styles = StyleSheet.create({
   sectionTitle: {
-    fontSize: '1.3125rem',
-    marginBottom: '1.3125rem',
+    fontSize: 1.3125,
+    marginBottom: 1.3125,
     fontWeight: 'bold'
   }
 });

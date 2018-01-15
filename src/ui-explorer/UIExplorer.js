@@ -40,27 +40,27 @@ const UIExplorer = ({ children, description, sections, title, url }) => (
 
 const styles = StyleSheet.create({
   root: {
-    padding: '1rem',
+    padding: 1,
     flex: 1
   },
   divider: {
-    height: '1.3125rem'
+    height: 1.3125
   },
   title: {
-    fontSize: '2rem'
+    fontSize: 2
   },
   description: {
     color: '#666',
     display: 'flex',
     flexDirection: 'column',
-    fontSize: '1.25rem',
-    marginTop: 'calc(0.5 * 1.3125rem)',
-    marginBottom: 'calc(1.5 * 1.3125rem)'
+    fontSize: 1.25,
+    marginTop: 0.5 * 1.3125,
+    marginBottom: 0.5 * 1.3125,
   },
   link: {
     color: '#1B95E0',
-    fontSize: '1rem',
-    marginTop: 'calc(0.5 * 1.3125rem)',
+    fontSize: 1,
+    marginTop: 0.5 * 1.3125,
     textDecorationLine: 'underline'
   }
 });

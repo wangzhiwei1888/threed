@@ -19,12 +19,12 @@ const styles = StyleSheet.create({
   item: {
     position: 'relative',
     paddingLeft: 20,
-    marginBottom: '0.5rem'
+    marginBottom: 0.5
   },
   bullet: {
     position: 'absolute',
     left: 6,
-    top: '.65625rem',
+    top: .65625,
     marginTop: -2,
     height: 4,
     width: 4,

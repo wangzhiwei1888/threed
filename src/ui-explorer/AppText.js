@@ -30,12 +30,12 @@ export default AppText;
 
 const styles = StyleSheet.create({
   baseText: {
-    fontSize: '1rem',
-    lineHeight: '1.3125em'
+    fontSize: 1,
+    lineHeight: 1.3125
   },
   link: {
     color: '#1B95E0',
-    marginTop: 'calc(0.5 * 1.3125rem)',
+    marginTop: 0.5 * 1.3125,
     textDecorationLine: 'underline'
   }
 });

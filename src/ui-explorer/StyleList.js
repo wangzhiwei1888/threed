@@ -20,24 +20,24 @@ const StyleList = ({ stylePropTypes }) => (
 const styles = StyleSheet.create({
   code: {
     fontFamily: 'monospace, monospace',
-    lineHeight: '1.3125em'
+    lineHeight: 1.3125
   },
   item: {
-    fontSize: '0.85rem',
+    fontSize: 0.85,
     marginLeft: 20,
-    marginBottom: '0.5rem'
+    marginBottom: 0.5
   },
   name: {
     fontWeight: 'bold'
   },
   title: {
-    fontSize: '2rem'
+    fontSize: 2
   },
   label: {
-    borderRadius: '1rem',
-    paddingVertical: '0.125rem',
-    paddingHorizontal: '0.5rem',
-    marginRight: '0.5rem',
+    borderRadius: 1,
+    paddingVertical: 0.125,
+    paddingHorizontal: 0.5,
+    marginRight: 0.5,
     backgroundColor: '#bdebff',
     color: '#025268'
   }

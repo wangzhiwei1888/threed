@@ -13,19 +13,17 @@ import UIExplorer, {
   Code,
   Description,
   DocItem,
-  Section,
-  storiesOf
+  Section
+  
 } from '../../ui-explorer';
 
 const ButtonScreen = () => (
-  <UIExplorer title="Button" url="1-components/Button">
-    <Description>
-      <AppText>
-        A basic button component. Supports a minimal level of customization. You can build your own
-        custom button using <Code>TouchableOpacity</Code> or <Code>TouchableNativeFeedback</Code>.
-      </AppText>
-    </Description>
 
+
+  
+
+  <UIExplorer title="Button" url="1-components/Button">
+    
     <Section title="Props">
       <DocItem
         name="accessibilityLabel"
@@ -71,4 +69,5 @@ const ButtonScreen = () => (
   </UIExplorer>
 );
 
-storiesOf('Components', module).add('Button', ButtonScreen);
+// storiesOf('Components', module).add('Button', ButtonScreen);
+export default ButtonScreen

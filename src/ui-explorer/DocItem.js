@@ -56,30 +56,29 @@ const PropText = ({ label, name, typeInfo }) => (
 
 const styles = StyleSheet.create({
   code: {
-    fontFamily: 'monospace, monospace',
-    fontSize: '1rem',
-    lineHeight: '1.3125em'
+    fontSize: 1,
+    lineHeight: 1.3125
   },
   example: {
-    marginBottom: 'calc(1.5 * 1.3125rem)'
+    marginBottom: 0.5 * 1.3125
   },
   title: {
-    fontSize: '1rem'
+    fontSize: 1
   },
   text: {
     alignItems: 'stretch',
     display: 'flex',
     flexDirection: 'column',
-    fontSize: '1rem',
-    lineHeight: '1.3125em'
+    fontSize: 1,
+    lineHeight: 1.3125
   },
   label: {
     backgroundColor: '#ddd',
-    borderRadius: '1rem',
+    borderRadius: 1,
     color: '#555',
-    marginRight: '0.5rem',
-    paddingVertical: '0.125rem',
-    paddingHorizontal: '0.5rem'
+    marginRight: 0.5,
+    paddingVertical: 0.125,
+    paddingHorizontal: 0.5
   },
   propName: {
     fontWeight: 'bold'
@@ -89,23 +88,23 @@ const styles = StyleSheet.create({
     color: '#025268'
   },
   description: {
-    marginTop: 'calc(0.5 * 1.3125rem)'
+    marginTop: 0.5 * 1.3125
   },
   renderBox: {
     borderColor: '#E6ECF0',
     borderWidth: 1,
-    padding: '1.3125rem',
-    marginTop: '1.3125rem'
+    padding: 1.3125,
+    marginTop: 1.3125
   },
   exampleText: {
     color: '#AAB8C2',
-    fontSize: '0.8rem',
+    fontSize: 0.8,
     fontWeight: 'bold',
-    marginBottom: 'calc(0.5 * 1.3125rem)',
-    textTransform: 'uppercase'
+    marginBottom: 0.5 * 1.3125
+    
   },
   verticalDivider: {
-    height: '1rem'
+    height: 1
   }
 });
 
