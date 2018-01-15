@@ -1,0 +1,33 @@
+
+.cont1{
+  padding: 0 0 50px;
+  justify-content: center;
+  align-items: center;
+}
+.bg1{
+  background-color: #ddd;
+  width: 300px;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+.zIndex{
+  width: 100;
+  height:100;
+  left:0;
+  top:0;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+}
+.box{
+  width: 100;
+  height: 100;
+  margin-left: 10;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+  margin-top:10;
+  margin-left:10;
+}

@@ -1,0 +1,30 @@
+.container{
+  padding-top: 10px;
+  align-items: center;
+}
+.btn{
+  padding:12px 10px;
+  width: 300px;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  position: relative;
+  z-index: 101;
+}
+
+.btnColor{
+  color: #fff;
+}
+
+.panel{
+  position: absolute;
+  background-color: blue;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  justify-content: center;
+  align-items: center;
+}
