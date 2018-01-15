@@ -13,9 +13,12 @@ import {
   Dimensions,
 } from 'react-native';
 
+import { Table, TableWrapper, Row, Rows, Col, Cols, Cell } from '../../UIComponents/myTable';
+
+
 const {width, height, scale} = Dimensions.get("window");
 
-import { Table, TableWrapper, Row, Rows, Col, Cols, Cell } from '../../UIComponents/myTable';
+
 
 export default class App extends Component<{}> {
 
